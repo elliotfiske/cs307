@@ -1,0 +1,182 @@
+
+<html>
+<head>
+<title>
+2.2.  Creating a Course
+</title>
+</head>
+<body bgcolor = white>
+<a name="Scheduling an Individual Appointment">
+<h3>
+2.2.  Creating a Course
+</h3>
+</a>
+<p>
+This scenario shows an individual instructor creating a new course, which serves as
+a collection of question types for the instructor to select from when creating a test.
+We assume that the instructor is using the Test Tool from scratch besides creating an account
+and logging in, which is detailed in Section X.
+</a>
+<p>
+<hr>
+<a name="Figure Courses View">
+<p align=center>
+<img src="images/courses-initial.png">
+</p>
+<p align=center> Figure 1:  Courses Initial View  </p>
+<hr>
+</a>
+<br>
+
+The initial Courses screen in Figure 1 displays a list of saved courses, which is currently empty. 
+To create a course, the instructor presses the <tt>Create new course</tt> button at the bottom of the window,
+whereupon the system displays the window shown in Figure 2.
+
+
+<br>
+<br>
+<hr>
+<a name="Figure Courses View">
+<p align=center>
+<img src="images/course-creation-initial.png">
+</p>
+<p align=center> Figure 2:  Creating A Course Initial View  </p>
+<hr>
+</a>
+<br>
+
+The course name is a short string for what the instructor wishes to call the course. Each
+course section contains a chapter, which is a decimal corresponding to a textbook section. The name
+is a string corresponding to the name of that section.
+<p>
+The instructor selects each textbox and fills in the appropriate information for their course's sections. To add
+another section, the instructor hits the <tt>Create new section</tt> button, whereupon the system responds by adding another
+textbox for a chapter and name under the <tt>Course Sections</tt> list. A filled-out view of a course is displayed in Figure 3. 
+<p>
+<hr>
+<a name="Figure Courses View Filled">
+<p align=center>
+<img src="images/course-creation-filled.png">
+</p>
+<p align=center> Figure 3:  A Filled Out Course  </p>
+<hr>
+</a>
+<br>
+When the instructor selects a section and presses the <tt>Remove section</tt> button,
+the system responds by removing the section from the <tt>Course Sections</tt> list.
+<p>
+To the right of the section names are edit buttons. When the instructor presses the <tt>edit</tt> button,
+the window shown in Figure 4 appears.
+<p>
+<hr>
+<a name="Figure Section Editor Initial View">
+<p align=center>
+<img src="images/section-initial.png">
+</p>
+<p align=center> Figure 4: Section Editor Initial View </p>
+<hr>
+</a>
+<br>
+<p>
+The table in the center of the window labeled <tt>Question Types</tt> represents the types of questions
+that are present in this section. Each individual question type will have a list of questions
+that can be on the test. The <tt>Description</tt> is a string that represents the name for the type of question. 
+The <tt>Count</tt> label in the tabel represents the number of questions that are stored for that question type.
+<p>
+When the instructor presses the <tt>Add new question</tt> button, the system responds by adding a new question
+type to the <tt>Question Types</tt> list.
+<p>
+When the instructor selects a question type and presses <tt>Remove question</tt>, the system responds by
+removing that question type and its associated questions from the section.
+<p>
+When the instructor selects the <tt>Edit</tt> button next to a question type, the system responds by 
+displaying the window shown in Figure 5.
+<p>
+<hr>
+<a name="Figure Question Type Editor Initial View">
+<p align=center>
+<img src="images/question-type-filled.png">
+</p>
+<p align=center> Figure 5: Question Type Editor </p>
+<hr>
+</a>
+<br>
+<p>
+The instructor can fill in the name of the question type in the textbox labeled <tt>Name</tt>. The
+<tt>Question Bank</tt> shows the questions that are a part of this question type, with a checkbox
+on the left for the instructor to choose if they want that question included in the question type. The <tt>Type</tt>
+field shows the type of question, and the <tt>Last Used</tt> is a date representing when that question was last
+used in a test.
+<p>
+When the instructor presses the <tt>Add new question</tt> button, the system responds by adding a question
+to the <tt>Question Bank</tt>. Similarly, when the instructor presses the <tt>Remove question</tt> button,
+the system responds by removing that question from the bank. When the edit button to the right of a question is
+pressed, the system responds by taking you to the question creation window, which is detailed in <b>Section X.</b>
+<p>
+When the instructor has added all their desired questions to this question type, they can press the
+<tt>Save question type</tt> button to save their changes and bring them back to the <tt>Section Editor</tt> screen.
+<hr>
+<a name="Figure Sections View">
+<p align=center>
+<img src="images/section-filled.png">
+</p>
+<p align=center> Figure 6:  Sections View Filled  </p>
+<hr>
+</a>
+<br>
+
+
+
+As shown in Figure 6, the <tt>Section Editor</tt> screen now shows the number of questions the instructor
+added to that question type under the <tt>Count</tt> field.
+<p>
+When the instructor presses the <tt>Save section</tt> button, the system responds by saving their changes
+to this section and returns to the <tt>Courses</tt> window, as shown in Figure 7.
+<hr>
+<a name="Figure Courses View Filled">
+<p align=center>
+<img src="images/courses-filled.png">
+</p>
+<p align=center> Figure 7:  Courses Filled View  </p>
+<hr>
+</a>
+<br>
+<p>
+The <tt>Last Modified</tt> field in the <tt>Courses</tt> list shows when the instructor last modified that course.
+<p>
+When the instructor presses the <tt>Delete course</tt> button, the system displays the window shown in Figure 8.
+<hr>
+<a name="Figure Delete Course">
+<p align=center>
+<img src="images/course-delete.png">
+</p>
+<p align=center> Figure 8:  Deleting A Course  </p>
+<hr>
+</a>
+<br>
+The instructor is prompted to ensure they wish to remove the course. If the instructor presses <tt>No</tt> 
+or hits the X at the top right of the screen, the system takes them back to the <tt>Courses</tt> view. 
+If the instructor hits <tt>Yes</tt>, the system removes the course.
+<p>
+If the instructor hits the <tt>Edit course</tt> button, the window shown in Figure 3 is displayed again for the
+instructor to make changes.
+
+
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<hr width=80% size=3>
+<center>
+<font size=-1>
+<font color=black> Prev: </font><a href="ui-overview.html">ui-overview</a>
+ | <font color=black> Next: </font><a href="browsing.html">browsing</a>
+ | <font color=black> Up: </font><a href="functional.html">functional</a>
+ | <font color=black> Top: </font><a href="index.html">index</a></font>
+</center>
+<hr width=80% size=3>
+</body>
+</html>
