@@ -1,5 +1,6 @@
 package tests;
 
+import grades.Question;
 import java.util.Collection;
 
 /**

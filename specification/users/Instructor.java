@@ -1,7 +1,7 @@
 package users;
 
 import questiondb.Course;
-import tests.TestGraded;
+import grades.TestGraded;
 import java.util.ArrayList;
 
 /**
