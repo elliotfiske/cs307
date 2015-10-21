@@ -1,4 +1,4 @@
-package Grades;
+package grades;
 
 /**
  * Extends a question and holds info about if the question isRight(bool)

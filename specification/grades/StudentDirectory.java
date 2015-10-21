@@ -1,4 +1,4 @@
-package Grades;
+package grades;
 
 /**
  *  The student directoy holds all data needed

@@ -1,4 +1,4 @@
-package Grades;
+package grades;
 /*
  * Holds information about the graded infor of a students test
  * Keeps track of the points possible on the test

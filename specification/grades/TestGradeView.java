@@ -1,4 +1,4 @@
-package Grades;
+package grades;
 
 /**
  *  This class containts all the information needed for grading

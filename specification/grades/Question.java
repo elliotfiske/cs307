@@ -1,4 +1,4 @@
-package Grades;
+package grades;
 
 /*
  *Dummby stand in

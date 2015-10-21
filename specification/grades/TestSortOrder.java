@@ -1,4 +1,4 @@
-package Grades;
+package grades;
 
 /**
  * Enum options for the sort order of tests

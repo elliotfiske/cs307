@@ -1,4 +1,4 @@
-package Grades;
+package grades;
 
 /**
  * Dummby class until more info gets filled out
