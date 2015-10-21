@@ -27,12 +27,16 @@ A user can manage tests through the Test Directory menu.
 
 <a name="Creating a Test">
 <h4>
-2.6.1.  Creating a Test
+2.6.1.  Creating and Generating a Test
 </h4>
 </a>
 <p>
-In the Test Directory, the instructor presses the large <tt>+</tt> button to show
- the New Test menu.
+In the Test Directory, the instructor presses the large <tt>+</tt> button to
+ show the New Test menu.
+<p>
+(Alternatively, if the instructor wishes to create a copy of an existing test,
+ the instructor may select one or multiple tests from the directory, and then
+ click <tt>Copy</tt> to create copies of the selected tests.)
 
 <br>
 <br>
@@ -57,17 +61,93 @@ After setting the new test's properties, the instructor will click
  <tt>Generate</tt> to add the test to the directory, or click <tt>Cancel</tt>
  otherwise.
 <p>
-(Alternatively, if the instructor wishes to create a copy of an existing test,
- the instructor may select one or multiple tests from the directory, and then
- click <tt>Copy</tt> to create copies of the selected tests.)
+The software will move to the Test Generation menu.
+
+<br>
+<br>
+<hr>
+<a name="new test">
+<p align=center>
+<img src="./images/testgen-simple.png">
+</p>
+<p align=center> Figure 1: Test Generation menu.  </p>
+<hr>
+</a>
+<br>
+
+<p>
+The instructor can manipulate several fields:
+<p>
+<tt>Number of Questions</tt>: How many questions are displayed on a student's
+ test.
+<p>
+<tt>Number of Possible Questions</tt>: How many questions total exist for all
+ instances of the test. A student's test takes a certain number of questions
+ from this pool of possible questions. Possible questions cannot be less than
+ number of questions.
+<p>
+<tt>Randomize Questions</tt>: When checked, the test will display its questions
+ in random order.
+<p>
+<tt>Average Difficulty</tt>: If not left to <tt>None</tt>, the test will
+ generate questions so that the average difficulty of questions is as
+ specified.
+<p>
+The instructor accesses more specific test generation options by clicking on
+ <tt>Adv. Options</tt>.
+
+<br>
+<br>
+<hr>
+<a name="properties">
+<p align=center>
+<img src="./images/testgen-adv.png">
+</p>
+<p align=center> Figure ---: Advanced test generation.  </p>
+<hr>
+</a>
+<br>
+
+<p>The software displays various question formats and difficulties. The
+ instructor specifies how many of each type of question they want.
+<p>By adding a '+' to a field, the instructor specifies that the test must
+ generate <em>at least</em> the given number of questions for the given type.
+<p>By adding a '-', the test generates <em>at most</em> that many questions.
+<p>When the instructor leaves a field blank, there is no specification.
+<p>When the instructor finishes setting the generation options, they press
+ <tt>Generate</tt>. Test Tool will populate the scrollbar to the left with
+ questions from the question bank.
+
+<br>
+<br>
+<hr>
+<a name="properties">
+<p align=center>
+<img src="./images/testgen-final-changes.png">
+</p>
+<p align=center> Figure ---: Test questions.  </p>
+<hr>
+</a>
+<br>
+
+<p>The instructor can now make final changes.
+<p>By pressing the large '+' button to the left, they may add new questions, or
+ delete questions by selecting a question from the scrollbar and pressing the
+ trashcan button.
+<p>The instructor changes the order of questions by selecting a question from
+ the scrollbar and pressing the up and down buttons to move them.
+<p>If the instructor desires to restart the test generation, they may press
+ <tt>Re-Generate</tt> to bring them back to the generator menu.
+<p>The instructor returns to the Test Directory by pressing either <tt>Cancel</tt>
+ or <tt>Save</tt>. By pressing the former, any final changes the instructor
+ made are saved.
 
 <a name="Changing Test Properties">
 <h4>
 2.6.2.  Changing Test Properties
 </h4>
 </a>
-<p>
-The instructor may edit a test's properties by going to the Test Directory,
+<p>The instructor may edit a test's properties by going to the Test Directory,
  selecting a single test, then selecting <tt>Properties</tt>.
 
 <br>
