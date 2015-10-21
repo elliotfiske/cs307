@@ -1,5 +1,7 @@
 package users;
 
+import java.util.ArrayList;
+
 /**
  * A class that represents any single user of the Test Tool software.
  * <p>

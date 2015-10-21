@@ -2,6 +2,7 @@ package users;
 
 import courses.Course;
 import tests.TestGraded;
+import java.util.ArrayList;
 
 /**
  * Represents a instructor user in Test Tool. Has associations between an
