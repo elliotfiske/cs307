@@ -1,4 +1,4 @@
-package Tests;
+package tests;
 /**
  * The initial pane for making a test, lets the teach set basic
  * information such as time limit, name, course, etc.

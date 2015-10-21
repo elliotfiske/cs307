@@ -1,4 +1,4 @@
-package Tests;
+package tests;
 
 /**
  * Lets user make manual changes to test question directory

@@ -1,4 +1,4 @@
-package Tests;
+package tests;
 
 /**
  * A test's questions directory

@@ -1,4 +1,4 @@
-package Tests;
+package tests;
 
 /**
  * Lets the user adjust basic test info

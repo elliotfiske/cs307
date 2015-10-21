@@ -1,4 +1,4 @@
-package Tests;
+package tests;
 
 /**
  * Shows an inprogress test

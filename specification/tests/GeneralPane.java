@@ -1,4 +1,4 @@
-package Tests;
+package tests;
 
 /**
  * View pane that gives the user access to the basics of a test

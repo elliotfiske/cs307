@@ -1,4 +1,4 @@
-package Tests;
+package tests;
 
 /**
  * General directory for managing tests

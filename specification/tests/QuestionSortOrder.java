@@ -1,4 +1,4 @@
-package Tests;
+package tests;
 
 /**
  * Enum options for the sort order of questions

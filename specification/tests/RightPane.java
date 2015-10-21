@@ -1,4 +1,4 @@
-package Tests;
+package tests;
 
 /**
  *  Parent class for all clases that show up to the right of

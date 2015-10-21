@@ -1,4 +1,4 @@
-package Tests;
+package tests;
 
 /**
  * pane that confirms a users delete selection

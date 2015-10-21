@@ -1,4 +1,4 @@
-package Tests;
+package tests;
 
 public abstract class Test {
    String title;
