@@ -19,13 +19,6 @@ public abstract class User {
 	public String lastName;
 
 	/**
-	 * The constuctor for the User class
-	 *
-	 * @return the user object
-	 */
-	public abstract User();
-
-	/**
 	 * Attempts to log in the user with the given password, 
 	 * returning a boolean representing whether the attempt was successful.
 	 *

@@ -2,6 +2,7 @@ package users;
 
 import tests.Test;
 import grades.TestGraded;
+import questiondb.Course;
 import java.util.ArrayList;
 
 
@@ -15,13 +16,6 @@ public abstract class Student {
 	public ArrayList<Test> tests;
 	public ArrayList<Course> courses;
 	public ArrayList<TestGraded> grades;
-
-	/**
-	 * The constructor for a student object
-	 *
-	 * @return the Student object
-	 */
-	public abstract Student();
 
 	/**
 	 * Adds the specified test to the student's test bank

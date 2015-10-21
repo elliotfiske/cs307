@@ -1,6 +1,6 @@
 package users;
 
-import courses.Course;
+import questiondb.Course;
 import tests.TestGraded;
 import java.util.ArrayList;
 
@@ -14,13 +14,6 @@ public abstract class Instructor {
 	public ArrayList<TestGraded> tests;
 	public ArrayList<Course> courses;
 	public ArrayList<Student> students;
-
-	/**
-	 * The constructor for a instructor object
-	 *
-	 * @return the Instructor object
-	 */
-	public abstract Instructor();
 
 	/**
 	 * Adds the specified test to the instructor's test bank
