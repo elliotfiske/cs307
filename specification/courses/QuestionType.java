@@ -1,6 +1,4 @@
-
-package QuestionDB;
-
+package questiondb;
 /*
  *
  * This file defines the Question Type object, which can be thought of as
@@ -11,7 +9,7 @@ package QuestionDB;
  */
 
 import java.util.Collection;
-import Questions.QuestionCreator;
+import questions.QuestionCreator;
 /**
  * A QuestionType contains a collection of questions that share the same concept, yet
  * may have different implementations. For example, you could have 5 different questions

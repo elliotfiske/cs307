@@ -1,6 +1,4 @@
-
-package QuestionDB;
-
+package questiondb;
 import java.util.Collection;
 
 /**
