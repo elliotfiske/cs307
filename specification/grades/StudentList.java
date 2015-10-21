@@ -1,6 +1,7 @@
 package grades;
 
 import java.util.Collection;
+import users.student;
 
 /**
  *  Holds a sorted collection of students.  Sort order can be changed

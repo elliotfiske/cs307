@@ -1,5 +1,7 @@
 package grades;
 
+import users.Student;
+
 /**
  *  The student directoy holds all data needed
  *  to look at students and their tests and the functions

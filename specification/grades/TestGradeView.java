@@ -1,5 +1,7 @@
 package grades;
 
+import users.Student;
+
 /**
  *  This class containts all the information needed for grading
  *  a student's test
