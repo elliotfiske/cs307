@@ -1,4 +1,5 @@
 package Tests;
+import java.util.Collection;
 
 /**
  * Advanced options for test generator

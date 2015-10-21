@@ -1,8 +1,6 @@
 package Tests;
 
-public enum Difficulty{
-   EASY, MEDIUM, HARD
-}
+import java.util.Collection;
 
 /**
  * Basic options for test generator

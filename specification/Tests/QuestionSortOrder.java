@@ -3,6 +3,6 @@ package Tests;
 /**
  * Enum options for the sort order of questions
  */
-public enum TestSortOrder {
+public enum QuestionSortOrder {
    NUMBER, PROBLEM, FORMAT, DIFFICULTY
 }
