@@ -1,4 +1,4 @@
 /**
- * Provides neccisary classes and data for viewing and modifying test information
+ * Provides necessary classes and data for viewing and modifying test information
  */
-package Tests;
+package tests;
