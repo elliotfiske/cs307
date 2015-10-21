@@ -1,7 +1,7 @@
 package users;
 
 import courses.Course;
-import tests.Test;
+import tests.TestGraded;
 
 /**
  * Represents a instructor user in Test Tool. Has associations between an
@@ -10,7 +10,7 @@ import tests.Test;
  * @author Max Linsenbard
  */
 public abstract class Instructor {
-	public ArrayList<Test> tests;
+	public ArrayList<TestGraded> tests;
 	public ArrayList<Course> courses;
 	public ArrayList<Student> students;
 
@@ -26,14 +26,14 @@ public abstract class Instructor {
 	 *
 	 * @param the test to be added
 	 */
-	public abstract void addTest(Test t);
+	public abstract void addTest(TestGraded t);
 
 	/**
 	 * Removes the specified test from the instructor's test bank
 	 *
 	 * @param the test to be removed
 	 */
-	public abstract void removeTest(Test t);
+	public abstract void removeTest(TestGraded t);
 
 	/**
 	 * Adds the specified course to the instructor's course list
