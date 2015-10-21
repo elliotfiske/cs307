@@ -1,5 +1,8 @@
 package users;
 
+import courses.Course;
+import tests.Test;
+
 /**
  * Represents a instructor user in Test Tool. Has associations between an
  * instructor and their courses, tests, and students.

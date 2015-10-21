@@ -1,5 +1,9 @@
 package users;
 
+import tests.Test;
+import grades.TestGraded;
+
+
 /**
  * Represents a student user in Test Tool. Has associations between a student
  * and their courses, tests, and grades.
@@ -9,7 +13,7 @@ package users;
 public abstract class Student {
 	public ArrayList<Test> tests;
 	public ArrayList<Course> courses;
-	public ArrayList<Grade> grades;
+	public ArrayList<TestGraded> grades;
 
 	/**
 	 * The constructor for a student object
@@ -51,12 +55,12 @@ public abstract class Student {
 	 *
 	 * @param the grade to be added
 	 */
-	public abstract void addGrade(Grade g);
+	public abstract void addGrade(TestGraded g);
 
 	/**
 	 * Removes the specified grade from the student's grade book
 	 *
 	 * @param the grade to be removed
 	 */
-	public abstract void removeGrade(Grade g);
+	public abstract void removeGrade(TestGraded g);
 }
