@@ -1,4 +1,4 @@
-package Questions;
+package questions;
 
 /**
  * TestCase is a definition for test cases to be used in testing programming

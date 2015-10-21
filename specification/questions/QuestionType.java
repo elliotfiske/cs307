@@ -1,4 +1,4 @@
-package Questions;
+package questions;
 
 /**
  * Question types that can be chosen when creating a question.

@@ -1,4 +1,4 @@
-package Questions;
+package questions;
 
 /**
  * Difficulties that can be selected for each question as a label.
